@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import plus_icon from './icons/plus_icon.png'
 
 const ButtondAdd = (props) => {
@@ -11,7 +11,7 @@ const ButtondAdd = (props) => {
           props.addInput()
         }}
       >
-        <img src={plus_icon} height="90%"></img>
+        <img src={plus_icon} height="90%" alt=''></img>
         Добавить задачу
       </button>
     </div>
