@@ -11,7 +11,7 @@ const ButtondAdd = (props) => {
           props.addInput()
         }}
       >
-        <img src={plus_icon} height="90%" alt=''></img>
+        <img src={plus_icon} height="100%" alt=''></img>
         Добавить задачу
       </button>
     </div>

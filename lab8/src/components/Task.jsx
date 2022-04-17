@@ -24,7 +24,7 @@ const Task = (props) => {
         {props.taskText}
       </div>
       <div className="item-delete" onClick={() => props.removeTask(props.id)}>
-        <img src={deleteIcon} height="100%" alt=''></img>
+        <img src={deleteIcon} height="100%" alt=""></img>
       </div>
     </div>
   )
