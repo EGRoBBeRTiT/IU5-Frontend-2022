@@ -188,11 +188,6 @@ button {
     justify-content: space-between;
 }
 
-.predict-today p {
-    font-family: "Century Gothic";
-    font-style: normal;
-}
-
 #time-today {
     color: rgb(174, 174, 174);
     font-weight: 400;
